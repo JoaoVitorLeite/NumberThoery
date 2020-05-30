@@ -15,3 +15,4 @@ import Num.Implicits._
  * @tparam A Type class
  */
 case class ChineseAux[A](number: A, modulus: A)(implicit op: Num[A]){ }
+
