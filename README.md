@@ -51,7 +51,12 @@ The IDE used was [Intellij Idea](https://www.jetbrains.com/idea/).
 
 ### References
 
-
+* [Link](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes)
+* [Link](https://en.wikipedia.org/wiki/Sieve_of_Sundaram)
+* [Link](https://en.wikipedia.org/wiki/Sieve_of_Atkin)
+* [Link](https://en.wikipedia.org/wiki/Chinese_remainder_theorem)
+* [Link](https://en.wikipedia.org/wiki/Extended_Euclidean_algorithm)
+* [Link](https://en.wikipedia.org/wiki/Euler%27s_totient_function)
 
 ### License
 
