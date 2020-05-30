@@ -85,7 +85,17 @@ class NumberTheorySuite extends FunSuite{
     val a = new NumberTheory[Int]
     assert(a.numberOfMultiples(5,-1,20) == 5)
   }
-
-
+  test("T21"){
+    val a = new NumberTheory[Int]
+    assert(a.chineseRemainder(List(ChineseAux(3,5), ChineseAux(1,7), ChineseAux(6,8))) == 78)
+  }
+  test("T22"){
+    val a = new NumberTheory[Int]
+    assert(a.chineseRemainder(List(ChineseAux(6,11), ChineseAux(13,16), ChineseAux(9,21), ChineseAux(19,25))) == 89469)
+  }
+  test("T23"){
+    val a = new NumberTheory[Int]
+    assert(a.chineseRemainder(List(ChineseAux(1,3), ChineseAux(4,5), ChineseAux(6,7))) == 34)
+  }
 
 }
